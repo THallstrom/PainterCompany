@@ -1,5 +1,11 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     margin: 0;
+    padding: 0;
 }
 
 nav {
@@ -13,6 +19,7 @@ ul {
     justify-content: space-around;
     align-items: center;
     padding: 1em;
+    margin: 0;
 }
 
 li{
