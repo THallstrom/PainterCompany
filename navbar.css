@@ -1,6 +1,9 @@
+body {
+    margin: 0;
+}
+
 nav {
-    background-color: lightgreen;
-    
+    background-color: rgb(249, 204, 122);
 }
 
 ul {
@@ -8,8 +11,22 @@ ul {
     flex-direction: row;
     list-style: none;
     justify-content: space-around;
+    align-items: center;
+    padding: 1em;
 }
 
 li {
+    background-color: rgb(249, 204, 122);
+    padding: .4em;
+}
 
+li:hover {
+    background-color: rgb(250, 186, 66);
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+    font-size: large;
+    color: black;
 }
