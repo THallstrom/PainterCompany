@@ -5,7 +5,7 @@ function includeNavbar() {
     var xhr = new XMLHttpRequest();
 
     // Ange metod, URL och async-parameter
-    xhr.open('GET', '/PainterCompany/html/navbar.html', true);
+    xhr.open('GET', '/html/navbar.html', true);
 
     // Ange en callback-funktion för när förfrågan är klar
     xhr.onload = function () {
