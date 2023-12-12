@@ -1,0 +1,111 @@
+body {
+    font-family: 'poppins', sans-serif;
+    font-size: 14px;
+}
+
+h1 {
+    font-size: 25px;
+    letter-spacing: -1px;
+    margin-top: 120px;
+    margin-bottom: -8px;
+    text-align: center;
+}
+
+.top-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+p {
+    text-align: justify;
+    line-height: 1.4;
+}
+
+.instagram-text {
+    font-size: 16px;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: -1px;
+    margin-top: 10px;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-media a {
+    text-decoration: none;
+    font-weight: 700;
+    color: rgb(206, 152, 64);
+}
+
+.social-media a:hover {
+    color: rgb(131, 127, 121);
+}
+
+.offerter-btn {
+    margin: 40px auto;      /* behövs auto */
+    padding: 10px 15px;
+    border: 1px solid rgb(184, 146, 49, 6);
+    max-width: 15%;
+    border-radius: 5px;
+    background-color: rgb(60, 58,71);  
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.offerter-btn a {
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: white;
+    align-self: center;
+}
+
+.offerter-btn a:hover {
+    background-color: rgb(60, 58,71);
+    border-color: rgb(60, 58,71);
+    color: rgb(206, 152, 64);
+}
+
+
+/* PERSONAL SECTION */
+
+h2 {
+    padding-top: 100px;
+    
+}
+
+.personal-container img {
+    width: 230px;
+    height: 300px;
+    object-fit: cover;
+    opacity: .7;
+}
+
+.personal-gallery {
+    background-color: rgb(182, 182, 175);
+    width: 100%;
+}
+
+.personal-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrerar innehållet horisontellt */
+    
+    width: 50%; /* Eller en specifik bredd som du föredrar */
+    margin: 0 auto; /* Centrerar hela containern i sidan */
+}
+
+.personal {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrerar både bild och text vertikalt */
+    text-align: center;
+    width: 100%;
+}
+
