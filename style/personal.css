@@ -1,6 +1,6 @@
 body {
     font-family: 'poppins', sans-serif;
-    font-size: 13px;
+    font-size: 14px;
     margin: 0;
 }
 
@@ -140,12 +140,13 @@ h4 {
     font-size: 20px;
     letter-spacing: -1px;
     text-align: center;
-    margin-top: -10px;
-    margin-bottom: 1px;
+    margin-top: -25px;
+    margin-bottom: -10px;
 }
 
 form div {
     margin-top: 8px;
+    font-weight: 700;
 }
 
 form input,
@@ -154,7 +155,7 @@ form button {
     font-family: 'poppins', sans-serif;
     font-size: 14px;
     line-height: 1.55; 
-    box-sizing: border-box;     /* Tillagd, den gör så att padding och border är ink i den totala bredden, GLÖM EJ!! */
+    box-sizing: border-box;     /* Tillagd, den gör så att padding och border är inkluderad i den totala bredden, GLÖM EJ!! */
 }
 
 .contact-form {
@@ -186,11 +187,26 @@ form textarea:focus {
 form button {
     width: 100%;
     cursor: pointer;
+    font-weight: 600;
+}
+
+form .btn:hover {
+    background-color:rgb(60, 58,71);
+    color: white;
 }
 
 .muted {
     text-align: center;
     width: auto;
+    font-weight: 600;
+}
+
+.bottom-footer {
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(182, 182, 175);
+    padding: 10px;
     font-weight: 600;
 }
 
