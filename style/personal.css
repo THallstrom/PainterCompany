@@ -19,7 +19,7 @@ h1 {
     padding: 0 30px;
 }
 
-p {                                 /* sätta dit .top-container? */
+p {                                 /* sätta dit .top-container??? */
     text-align: justify;
     line-height: 1.4;
 }
@@ -75,10 +75,10 @@ p {                                 /* sätta dit .top-container? */
 }
 
 
-/* PERSONAL SECTION */
+/*-------- PERSONAL SECTION ---------*/
 
 h2 {
-    padding-top: 100px;
+    padding-top: 50px;
     letter-spacing: -2px;
     font-weight: 900;
 }
@@ -93,6 +93,12 @@ h4 {
     font-size: 14px;
     text-transform: uppercase;
     font-weight: 800;
+    margin-bottom: 2px;
+}
+
+.personal-heading {
+    margin-bottom: -10px;
+    text-align: center;
 }
 
 .personal-container img {
@@ -106,7 +112,7 @@ h4 {
 .personal-gallery {
     background-color: rgb(182, 182, 175);
     width: 100%;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 
 .personal-container {
@@ -124,6 +130,72 @@ h4 {
     text-align: center;
     width: 100%;
 }
+
+
+
+
+/* --------- FORM SECTION ---------- */
+
+.form-heading {
+    font-size: 20px;
+    letter-spacing: -1px;
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 1px;
+}
+
+form div {
+    margin-top: 8px;
+}
+
+form input,
+form textarea,
+form button {
+    font-family: 'poppins', sans-serif;
+    font-size: 14px;
+    line-height: 1.55; 
+    box-sizing: border-box;     /* Tillagd, den gör så att padding och border är ink i den totala bredden, GLÖM EJ!! */
+}
+
+.contact-form {
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.form {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+form input,
+form textarea {
+    /* border: none;  ska jag lägga till bakgrundsfärg?? */
+    width: 100%;
+    resize: none;
+    padding: 5px;
+}
+
+form input:focus,
+form textarea:focus {
+    outline: none;
+}
+
+form button {
+    width: 100%;
+    cursor: pointer;
+}
+
+.muted {
+    text-align: center;
+    width: auto;
+    font-weight: 600;
+}
+
+
+
 
 @media  (min-width: 768px) {
     /* .personal-container {
