@@ -2,10 +2,16 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: lightgreen;
+    background-color: #b6b6af;
     height: 3rem;
 }
 
 nav a {
     text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    color: black;
+    transform: scale(1.2);
 }
