@@ -3,19 +3,19 @@ body {
     font-size: 14px;
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* Säkerställer att body tar upp minst hela skärmens höjd */
+    min-height: 100vh; /* den här gör så body tar upp hela höjden på sidan */
     margin: 0;
 }
 
 .main-header-calculations, .top-container-calculations, .form {
-    flex: 1; /* Ger dessa element flexibilitet att expandera */
+    flex: 1; /* gör så att elementen får felxibilitet och kan expandera */
 }
 
 h1 {
     font-size: 25px;
     letter-spacing: -1px;
     font-weight: 900;
-    margin-top: 150px;
+    margin-top: 200px;
     margin-bottom: 8px;
     text-align: center;
 }
@@ -107,6 +107,7 @@ form button:hover {
     }
     .prices {
         margin-top: 70px;
+        margin-bottom: 100px;
     }
 
     .prices h3 {
