@@ -11,9 +11,10 @@ nav {
 }
 
 .links ul {
-    margin-right: 1rem;
-    padding: 0;
+    margin: 0;
+    padding: 1rem;
     display:flex;
+    align-items: center;
 }
 
 .links li {
