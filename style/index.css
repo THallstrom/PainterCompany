@@ -4,6 +4,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
+    font-family: Poppins;
 }
 
 .wrapper {
@@ -70,7 +71,7 @@ header button:hover {
 }
 
 .bottom-footer {
-	font-size: 12px;
+	font-size: 14px;
 	display: flex;
 	justify-content: center;
 	background-color: rgb(182, 182, 175);
@@ -97,4 +98,8 @@ header button:hover {
         align-items: center;
         justify-content: center;
 	}
+
+    .bottom-footer {
+        font-size: 12px;
+    }
 }
