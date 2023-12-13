@@ -89,11 +89,8 @@ header button:hover {
 	main {
 		justify-content: flex-end;
 	}
-	.hoffa {
-		margin-top: 200px;
-	}
 
-	.wrapper {
+	div.wrapper {
 		margin-top: 130px;
         width: 100vw;
         flex-direction: column;
