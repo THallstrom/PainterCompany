@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../style/personal.css">
+    <script src="/personal.js" defer></script>
     <script src="../navbar.js" defer></script>
     <title>Hoffas Måleri AB</title>
 </head>
@@ -73,14 +74,13 @@
     </header>
 
     <section class="personal-gallery">
+        <div class="personal-heading">
+            <h2>VÅRAT GÄNG</h2>
+            <h3>SÖDERS FINEST</h3>
+        </div>
         <div class="personal-container">
-            <div class="personal-heading">
-                <h2>VÅRAT GÄNG</h2>
-                <h3>SÖDERS FINEST</h3>
-            </div>
-
             <div class="personal">
-                <h4>Hoffa - Hjärtat i Hoffas Måleri</h4>
+                <h4>Hoffa</h4>
                 <img src="/images/Hoffa.jpg" alt="Hoffa">
                 <p>
                     Hoffa, en riktig färgfantast sedan barnsben! Han satte igång med Hoffas Måleri i unga år, 
@@ -125,23 +125,23 @@
     <section class="contact-form">
         <h2 class="form-heading">KONTAKTA OSS</h2>
         <div class="form">
-            <form action="text" method="post">
+            <form id="contact-form" method="post">
                 <div>
                     <label for="contact-name">NAMN</label>
                     <input type="text" name="contact-name" id="contact-name">
                 </div>
-
+    
                 <div>
                     <label for="contact-email">E-POSTADRESS</label>
                     <input type="email" name="contact-email" id="contact-email">
                 </div>
-
+    
                 <div>
-                    <label for="contact-message">SKRIV VHÄR</label>
+                    <label for="contact-message">SKRIV HÄR</label>
                     <textarea name="contact-message" id="contact-message" cols="30" rows="10"></textarea>
                 </div>
-
-                <button class="btn">SKICKA</button>
+    
+                <button type="submit" class="btn">SKICKA</button>
                 <p class="muted"><em>Klart och klart, fyll i rubbet så hör vi av oss asap!</em></p>
             </form>
         </div>
