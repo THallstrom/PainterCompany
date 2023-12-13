@@ -1,0 +1,72 @@
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.wrapper {
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    perspective: 10px;
+}
+
+.background {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+    transform: translateZ(-10px) scale(2);
+}
+
+header {
+    position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        transform-style: preserve-3d;
+        z-index:-1;
+}
+
+.hoffa {
+	height: 20vh;
+	width: 60vw;
+	margin: 2rem;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.hoffa-text {
+	font-size: 3rem;
+	color: rgb(255, 255, 255);
+    text-shadow: 0 0 15px black;
+}
+
+.bottom-footer {
+	font-size: 12px;
+	display: flex;
+	justify-content: center;
+	background-color: rgb(182, 182, 175);
+	padding: 10px;
+	font-weight: 600;
+}
+
+.title {
+    font-size: 5rem;
+    color: white;
+    text-shadow: 0 0 15px black;
+}
+
+
+
+
+@media (max-width: 768px) {
+	main {
+		justify-content: flex-end;
+	}
+	.hoffa {
+		margin-top: 200px;
+	}
+}
