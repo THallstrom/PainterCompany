@@ -139,8 +139,6 @@ h4 {
 }
 
 
-
-
 /* --------- FORM SECTION ---------- */
 
 .form-heading {
@@ -178,7 +176,6 @@ form button {
 
 form input,
 form textarea {
-    /* border: none;  ska jag lägga till bakgrundsfärg?? */
     width: 100%;
     resize: none;
     padding: 5px;
@@ -215,8 +212,7 @@ form .btn:hover {
     font-weight: 600;
 }
 
-
-
+/* ---------- MEDIA SECTION ---------- */
 
 @media  (min-width: 768px) {
 
@@ -290,17 +286,6 @@ form .btn:hover {
     .bottom-footer {
         font-size: 14px;
     }
-
-
-
-
-    /* .personal p {
-        padding: 10px 20px;
-        margin-top: 10px;
-        margin-right: 10px;
-        letter-spacing: 0;
-        font-size: 16px;
-    } */
 }
 
 @media (min-width: 1200px) {

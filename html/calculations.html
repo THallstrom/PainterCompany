@@ -9,9 +9,66 @@
     <link rel="stylesheet" href="../style/calculations.css">
     <script src="../calculation.js" defer></script>
     <script src="../navbar.js" defer></script>
-    <title>Document</title>
+    <title>Hoffas Måleri AB</title>
 </head>
 <body>
-    <h1>OFFERTER TEST</h1>
+    <header class="main-header-calculations">
+        <div class="top-container-calculations">
+            <h1>Fräscha Upp Din Lya, Få Snabb Offert på Målning!</h1>
+
+            <p>
+                Tjena, kolla in våra snabba och på ett ungefär kalkylerade priser för att piffa 
+                upp din crib!
+                Kika här, så får du en skön bild av vad det kan tänkas kosta att göra om din lya, 
+                inklusive allt material och så, baserat på hur stor den är i kvadratmeter, liksom. 
+                Vi kör med tre feta prisalternativ för att matcha din stil och plånbok.
+            </p>
+            <p>
+                Första dealen, alltså pris alternativ 1, det är rena rama deluxe-paketet. Vi snackar 
+                om dubbel omgång med bredspackel, fixar taket, väggarna och alla snickerier. Andra 
+                alternativet, det är mer chill. Vi lagar hålen, målar taket och väggarna. Och pris 
+                alternativ 3, det är basic - bara en fräsch omgång färg på tak och väggar.
+            </p>
+            <p>
+                Men kom ihåg, det här är bara uppskattningar, va. För att ge dig 
+                den rätta dealen behöver vi komma förbi och checka läget. Bara så vi kan ge dig ett 
+                skarpt och rättvist pris!
+            </p>
+        </div>
+        <div class="prices">
+            <h3>Prisalternativ 1: (1200kr/kvm)</h3>
+            <p>2ggr bredspackling, målning av tak, väggar snickerier</p>
+            <h3>Prisalternativ 2: (800kr/kvm)</h3>
+            <p>I sättning av små hål, målning av tak & väggar</p>
+            <h3>Prisalternativ 3: (600kr/kvm)</h3>
+            <p>Endast ommålning av tak och väggar</p>
+        </div>
+    </header>
+
+    
+
+    <div class="calculation-headings">
+        <h3>Fyll i fälten så ger vi dig en schysst kalkyl!!</h3>
+    </div>
+
+    <form id="area-form" class="form">
+        <label for="area">Ange antal kvadratmeter:</label>
+        <input type="text" id="area" name="area">
+        <div>
+            <label><input type="radio" name="priceOption" value="1200" checked> 1200 kr/kvm</label>
+            <label><input type="radio" name="priceOption" value="800"> 800 kr/kvm</label>
+            <label><input type="radio" name="priceOption" value="600"> 600 kr/kvm</label>
+        </div>
+
+        <button type="submit">Beräkna Pris</button>
+    </form>
+    
+    <p id="result"></p>
+
+    <footer class="bottom-footer">
+        <p>
+            &copy; Copright 2023 The Hoffas Painting Company INC. All rights reserved.
+        </p>
+    </footer>
 </body>
 </html>
