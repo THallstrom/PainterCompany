@@ -4,6 +4,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
+    font-family: Poppins;
 }
 
 .wrapper {
@@ -35,6 +36,9 @@ header {
 }
 
 .btn-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 	gap: 30px;
 }
 
@@ -49,9 +53,8 @@ header {
 }
 
 header button:hover {
-	background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.5);
 	border: 1px solid black;
-	/* color: rgb(144, 144, 144); */
 }
 
 .hoffa {
@@ -70,7 +73,7 @@ header button:hover {
 }
 
 .bottom-footer {
-	font-size: 12px;
+	font-size: 14px;
 	display: flex;
 	justify-content: center;
 	background-color: rgb(182, 182, 175);
@@ -85,6 +88,15 @@ header button:hover {
 	text-shadow: 0 0 15px black;
 }
 
+.hidden-btn{
+    opacity: 0;
+    transition: opacity 10s ease;
+}
+
+.hidden-btn:hover {
+    opacity: .5;
+}
+
 @media (max-width: 768px) {
 	main {
 		justify-content: flex-end;
@@ -97,4 +109,8 @@ header button:hover {
         align-items: center;
         justify-content: center;
 	}
+
+    .bottom-footer {
+        font-size: 12px;
+    }
 }
