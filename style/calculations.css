@@ -3,12 +3,12 @@ body {
     font-size: 14px;
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* den här gör så body tar upp hela höjden på sidan */
+    min-height: 100vh; 
     margin: 0;
 }
 
 .main-header-calculations, .top-container-calculations, .form {
-    flex: 1; /* gör så att elementen får felxibilitet och kan expandera */
+    flex: 1;
 }
 
 h1 {

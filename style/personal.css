@@ -101,19 +101,8 @@ h4 {
     text-align: center;
 }
 
-/* TILLAGT I EFTERHAND KOOOLLLAAA! */
 .personal-container p {
     display: none;
-}
-
-/* KOOOLLLAAA HÄR */
-
-.personal-container img {
-    width: 170px;
-    height: 210px;
-    object-fit: cover;
-    opacity: .7;
-    border-radius: 10px;
 }
 
 .personal-gallery {
